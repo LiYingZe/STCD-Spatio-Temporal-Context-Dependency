@@ -5,9 +5,11 @@ A novel data dependency notation, spatio-temporal context dependency (STCD), whi
 
 For example:
 Sequential Dependency 
+
 $$
 Time \rightarrow_{(0.1,0.2)} \mathsf{I}
 $$
+
 Could be expressed by STCD:
 
 $$
@@ -15,10 +17,13 @@ $$
 $$
 
 And DC :
+
 $$
 \forall t_i: \neg(t_i.I_1>t_i.I_2)
 $$
+
 Is equal to STCD:
+
 $$
 \forall t_i:(t_i.I_1\rightarrow_{-\infty,0}^f t_i.I_2 ,f(t_i.I_1)=t_i.I_1) 
 $$
