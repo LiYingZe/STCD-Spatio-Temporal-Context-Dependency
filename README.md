@@ -178,7 +178,7 @@ lb: -1e-07 	ub: 1e-07
 This simple demo demonstrates the effectiveness of our approach!
 In this example, we find that our approach can not only discover interesting data-dependency knowledge, but also eliminate a lot of redundant rules.
 But as shown in our paper, although our implication testing is theoretically 
-complete, the complexity of this problem is NP for general-nonlinear functions.
+complete, the complexity of this problem is NP-Hard for general-nonlinear functions.
 Therefore, we can only eliminate part of the obvious nonlinear STCD redundancy in a limited time.
 
 Luckily, linear STCD does not have the above problems.
