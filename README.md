@@ -3,6 +3,8 @@
 ## What is STCD?
 A novel data dependency notation, spatio-temporal context dependency (STCD), which extends the expressiveness of data quality constraints from dependence on attributes (column) and  instances (rows) for time series data. We address the compatibility of STCD with column-based constraints (i.e., SD) and row-based constraints (i.e., DC).
 
+You can see our extended version of paper in ./STCD_Extended_Paper.pdf for more details.
+
 For example:
 Sequential Dependency 
 
